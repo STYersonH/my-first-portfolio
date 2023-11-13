@@ -11,6 +11,7 @@ import {
 	Tech,
 	Works,
 } from "./components";
+import SocialMediaButtons from "./components/SocialMediaButtons";
 
 function App() {
 	return (
@@ -44,6 +45,8 @@ function App() {
 					<Contact />
 					<StarsCanvas />
 				</div>
+
+				<SocialMediaButtons />
 			</div>
 		</BrowserRouter>
 	);
