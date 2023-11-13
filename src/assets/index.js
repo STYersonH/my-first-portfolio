@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import logoY from "./logoYerson.svg"
+import logoY from "./logoYerson.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -21,44 +21,56 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.png";
+import next from "./tech/next.png";
+import postgre from "./tech/postgre.png";
+import prisma from "./tech/prisma.png";
+import sass from "./tech/sass.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import unsaac from "./company/unsaac.png";
+import freelancer from "./company/freelancer.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
-  logo,
-  logoY,
-  backend,
-  creator,
-  mobile,
-  web,
-  github,
-  menu,
-  close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+	logo,
+	logoY,
+	backend,
+	creator,
+	mobile,
+	web,
+	github,
+	menu,
+	close,
+	css,
+	docker,
+	figma,
+	git,
+	html,
+	javascript,
+	mongodb,
+	nodejs,
+	reactjs,
+	redux,
+	tailwind,
+	typescript,
+	threejs,
+	next,
+	postgre,
+	prisma,
+	sass,
+	meta,
+	shopify,
+	starbucks,
+	tesla,
+	carrent,
+	jobit,
+	tripguide,
+	unsaac,
+	freelancer,
 };
