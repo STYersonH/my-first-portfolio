@@ -29,42 +29,45 @@ import {
 	sass,
 	unsaac,
 	freelancer,
+	bankApp,
+	deliveryFood,
+	webPage,
 } from "../assets";
 
 export const navLinks = [
 	{
 		id: "about",
-		title: "About",
+		title: "Sobre mí",
 	},
 	{
 		id: "work",
-		title: "Work",
+		title: "Mi experiencia",
 	},
 	{
 		id: "projects",
-		title: "Projects",
+		title: "Proyectos",
 	},
 	{
 		id: "contact",
-		title: "Contact",
+		title: "Contactame",
 	},
 ];
 
 const services = [
 	{
-		title: "Web Developer",
+		title: "Desarrollador Web",
 		icon: web,
 	},
 	{
-		title: "Programming Teacher",
+		title: "Profesor de programación",
 		icon: mobile,
 	},
 	{
-		title: "Backend Developer",
+		title: "Diseñador",
 		icon: backend,
 	},
 	{
-		title: "Content Creator",
+		title: "Creador de contenido",
 		icon: creator,
 	},
 ];
@@ -126,31 +129,31 @@ const technologies = [
 
 const experiences = [
 	{
-		title: "Student in Systems Engineering",
+		title: "Bachiller en Ingeniería de Sistemas",
 		company_name: "UNSAAC",
 		icon: unsaac,
 		iconBg: "#383E56",
-		date: "March 2019 - December 2023",
+		date: "Marzo 2019 - Julio 2024",
 		points: [
-			"Student of 10th semester in Systems Engineering at the UNSAAC University of Cusco, Peru.",
-			"Collaborating with classmates to create great projects.",
-			"Learning the basis of programming and software development.",
-			"Participating in programming contests.",
-			"Being part of study group called ACM chapter cusco.",
+			"Bachiller en Ingeniería de Sistemas en la Universidad Nacional de San antonio Abad del Cusco, Perú",
+			"Desarrollé la habilidad de trabajo en equipo y liderazgo.",
+			"Logré dominar un pensamiento algorítmico que me permite buscar soluciones a diferentes problemas",
+			"Participé como concursante y organizador de concursos de programación.",
+			"Fuí parte de un círculo de estudios llamado ACM chapter UNSAAC",
 		],
 	},
 	{
 		title: "web developer freelancer",
-		company_name: "El poeta binario",
+		company_name: "Learn, Craft ´n Code",
 		icon: freelancer,
 		iconBg: "#383E56",
-		date: "October 2023 - Actuality",
+		date: "Julio 2024 - Actualidad",
 		points: [
-			"Learning new technologies to improve my skills.",
-			"Improving my programming logic.",
-			"Implementing interesting projects.",
-			"Teaching what I learn to help other people and understand better the topics.",
-			"Creating content for my social networks.",
+			"Estoy mejorando mi manejo de tecnologías web.",
+			"Estoy volviendome mas audaz con mi lógica de programación.",
+			"Estoy desarrollando proyectos interesantes e innovadores",
+			"Estoy compartiendo lo que aprendo para ayudar a otros chicos en este camino",
+			"Estoy mejorando mis habilidades de diseño",
 		],
 	},
 ];
@@ -158,24 +161,24 @@ const experiences = [
 const testimonials = [
 	{
 		testimonial:
-			"I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-		name: "Sara Lee",
+			"Descargué una aplicación para aprender francés. Ahora puedo decir 'croissant' con acento, pero no tengo idea de cómo pedir uno.",
+		name: "Lia Smith",
 		designation: "CFO",
 		company: "Acme Co",
 		image: "https://randomuser.me/api/portraits/women/4.jpg",
 	},
 	{
 		testimonial:
-			"I've never met a web developer who truly cares about their clients' success like Rick does.",
-		name: "Chris Brown",
+			"Decidí ser creativo y hacer manualidades. Ahora tengo más pegamento en mis dedos que en el proyecto.",
+		name: "John Doe",
 		designation: "COO",
 		company: "DEF Corp",
 		image: "https://randomuser.me/api/portraits/men/5.jpg",
 	},
 	{
 		testimonial:
-			"After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-		name: "Lisa Wang",
+			"Desde que voy al gimnasio tengo la impresion de que al pedalear en las bicicletas fijas, estas generan energia electrica para el gimnasio.",
+		name: "Jane Doe",
 		designation: "CTO",
 		company: "456 Enterprises",
 		image: "https://randomuser.me/api/portraits/women/6.jpg",
@@ -184,16 +187,33 @@ const testimonials = [
 
 const projects = [
 	{
-		name: "Car Rent",
+		name: "Página Hoo bank",
 		description:
-			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+			"Plataforma web que muestra información sobre el banco Hoo y transmite innovación y confianza a sus usuarios. Esta página fue creada pensando en la experiencia del usuario y es responsiva.",
 		tags: [
 			{
 				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "mongodb",
+				name: "tailwind",
+				color: "green-text-gradient",
+			},
+		],
+		image: bankApp,
+		source_code_link: "https://github.com/STYersonH/Bank-modern-app",
+	},
+	{
+		name: "FoodDee delivery page",
+		description:
+			"Página web para mostrar un diseño atractivo y responsivo para mostrar el servicio de un restaurante delivery. Esta página fue creada para transmitir calidez y confianza a sus usuarios.",
+		tags: [
+			{
+				name: "react",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "firebase",
 				color: "green-text-gradient",
 			},
 			{
@@ -201,50 +221,29 @@ const projects = [
 				color: "pink-text-gradient",
 			},
 		],
-		image: carrent,
-		source_code_link: "https://github.com/",
+		image: deliveryFood,
+		source_code_link: "https://github.com/STYersonH/food-delivery-app",
 	},
 	{
-		name: "Job IT",
+		name: "Mi pagina web",
 		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+			"Mi página web personal desarrollada en base a un vídeo de JSmastery y adecuada a mis necesidades y preferencias. Esta página fue creada para mostrar mis proyectos y mis habilidades como desarrollador.",
 		tags: [
 			{
 				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "restapi",
+				name: "threejs",
 				color: "green-text-gradient",
 			},
 			{
-				name: "scss",
+				name: "tailwind",
 				color: "pink-text-gradient",
 			},
 		],
-		image: jobit,
-		source_code_link: "https://github.com/",
-	},
-	{
-		name: "Trip Guide",
-		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-		tags: [
-			{
-				name: "nextjs",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "supabase",
-				color: "green-text-gradient",
-			},
-			{
-				name: "css",
-				color: "pink-text-gradient",
-			},
-		],
-		image: tripguide,
-		source_code_link: "https://github.com/",
+		image: webPage,
+		source_code_link: "https://github.com/STYersonH/my-first-portfolio",
 	},
 ];
 

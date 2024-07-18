@@ -28,12 +28,12 @@ function App() {
 					<Experience />
 				</div>
 
-				<div className="bg-tech-pattern-up w-screen h-[450px] bg-cover bg-no-repeat z-10" />
-				<div className="-my-20 bg-[#0C2948]">
-					{/* Tech esta dentro de un section que es definido en SectionWrapper.tsx */}
+				<div className="box-border bg-tech-pattern-up h-[450px] bg-cover bg-no-repeat z-10" />
+				<div className="bg-[#0C2948]">
+					{/* Tech esta dentro de un section que es definido en SectionWrapper.tsx   -my-20  */}
 					<Tech />
 				</div>
-				<div className="bg-tech-pattern-down w-screen h-[450px] bg-cover bg-no-repeat" />
+				<div className="bg-tech-pattern-down h-[450px] bg-cover bg-no-repeat" />
 
 				<div className="-mt-48">
 					<Works />

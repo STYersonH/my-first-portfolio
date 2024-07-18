@@ -39,8 +39,8 @@ const About = () => {
       en este caso se esta animando con las propiedades definidas en
       textVariant()*/}
 			<motion.div variants={textVariant()}>
-				<p className={styles.sectionSubText}>Introduccion</p>
-				<h2 className={styles.sectionHeadText}>Overview.</h2>
+				<p className={styles.sectionSubText}>Introducción</p>
+				<h2 className={styles.sectionHeadText}>Sobre mí.</h2>
 			</motion.div>
 
 			<motion.p
@@ -49,12 +49,13 @@ const About = () => {
 				// leading-[30px] : distancia entre lineas de texto
 				className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
 			>
-				I'm a skilled software developer with experience in TypeScript and
+				Soy un desarrollador de software capacitado en Javascript y TypeScript con gran experiencia en frameworks como React, Node.js, Next.js. Aprendo rápido, tengo una excelente manera de trabajar en equipos y colaboro estrechamente con mis clientes para crear soluciones eficientes, escalables y fáciles de usar que resuelven problemas del mundo real. ¡Quiero trabajar contigo y hacer realidad tus ideas!
+				{/* I'm a skilled software developer with experience in TypeScript and
 				JavaScript with a great experience in frameworks like React, Node.js,
 				Next.js and others. I'm a quick learner, I have a great way working in
 				teams and collaborate closely with clients to create efficient,
 				scalable, and user-friendly solutions that solve real-world problems. I
-				want to work with you and make your ideas reality!
+				want to work with you and make your ideas reality! */}
 			</motion.p>
 
 			{/* flex-wrap acomodara los items que ya no quepan abajo */}

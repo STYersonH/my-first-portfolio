@@ -7,7 +7,7 @@ const Hero = () => {
 	return (
 		<section className={`relative w-full h-screen mx-auto`}>
 			<div
-				className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+				className={`absolute inset-0 top-[90px] 3xl:top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
 			>
 				<div className="flex flex-col justify-center items-center mt-5">
 					<div className="w-5 h-5 rounded-full bg-[#005bc5]" />
@@ -16,12 +16,11 @@ const Hero = () => {
 
 				<div>
 					<h1 className={`${styles.heroHeadText} text-white`}>
-						Hi, I'm <span className="text-[#005bc5]">Yerson</span>
+						Hola, Soy <span className="text-[#005bc5]">Yerson</span>
 					</h1>
 					<p className={`${styles.heroSubText} mt-2 text-white-100`}>
-						I develop user interfaces, web pages{" "}
-						<br className="sm:block hidden" /> really wonderful and create a
-						great systems
+						Apasionado por el aprendizaje, {" "}
+						<br className="sm:block hidden" />  la programación y el desarrollo web
 					</p>
 				</div>
 			</div>

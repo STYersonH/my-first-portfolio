@@ -35,6 +35,9 @@ import freelancer from "./company/freelancer.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import bankApp from "./bankApp.jpg";
+import deliveryFood from "./deliveryFood.png";
+import webPage from "./webPage.png";
 
 export {
 	logo,
@@ -71,4 +74,7 @@ export {
 	tripguide,
 	unsaac,
 	freelancer,
+	bankApp,
+	deliveryFood,
+	webPage,
 };
